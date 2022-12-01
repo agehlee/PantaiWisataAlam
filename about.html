@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beberapa wisata pantai di Pangandaran</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/LOGO.png" /></a>
+        <div class="nav-link" id="navlink">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">DESKRIPSI WISATA</a></li>
+            <li><a href="course.html">ABOUT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Deskripsi Wisata</h1>
+    </section>
+
+    <!-- facilities -->
+    <section class="facilities">
+      <div class="row">
+        <div class="facilities-col">
+          <h3>1. BULAK SETRA</h3>
+          <img src="images/BS1.jpg" />
+          <p>
+            Bulak Setra merupakan kawasan konservasi wana wisata alam yang dikelola oleh Perum Perhutani, terdapat goa-goa dan kawasan karst yang masih alami serta flora dan fauna juga hewan perimata yang masih banyak terdapat di dalamnya.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <h3>2. PANTAI PASIR PUTIH</h3>
+          <img src="images/pantai-pasir-putih.jpg" />
+          <p>
+            Pantai Pasir Putih Pangandaran adalah satu dari sekian banyak tempat wisata di Pangandaran, yang sangat populer, dan hits di kalangan wisatawan. Pantai Pasir Putih Pangandaran menawarkan pesona keindahan alam, yang berpadu
+            dengan hamparan pasir putih.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <h3>3. PANTAI BATU HIU</h3>
+          <img src="images/pantai-batu-hiu.jpg" />
+          <p>
+            Pantai Batu Hiu adalah destinasi wisata alam yang menawarkan keindahan laut lepas Samudera Hindia dari bukit karang. Pantai Batu Hiu kerap disebut sebagai Tanah Lot nya Jawa Barat karena memiliki batu karang yang menjorok ke
+            tengah laut seperti halnya Tanah Lot di Pulau Bali.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="facilities">
+      <div class="row">
+        <div class="facilities-col">
+          <h3>4. PANTAI MADASARI</h3>
+          <img src="images/PM.jpg" />
+          <p>
+            Pantai Madasari idealnya menjadi destinasi wisata penutup, saat anda berkunjung ke pantai-pantai yang ada di Pangandaran, khususnya setelah berkunjung ke Pantai Batu Hiu Pangandaran, atau Green Canyon Pangandaran. Maksud menjadi
+            wisata penutup adalah menjadikan lokasi Pantai Madasari menjadi tempat untuk menginap. Tetapi, hal tersebut bukan menjadi sebuah pertanda ada penginapan di Pantai Madasari.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <h3>5. GREEN CANYON</h3>
+          <img src="images/GC.jpg" />
+          <p>
+            Green Canyon adalah tempat wisata alam berupa aliran sungai yang diapit oleh dua bukit bebatuan yang menembus goa. Adapun Green Canyon terletak di Jawa Barat, tepatnya di Desa Kertayasa, Kecamatan Cijulang, Kabupaten
+            Pangandaran. Tempat wisata ini berjarak sekitar 31 kilometer dari Pangandaran.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <h3>6. PANTAI KARAPYAK</h3>
+          <img src="images/KP.jpg" />
+          <p>
+            Pantai Karapayak merupakan destinasi wisata bahari yang dapat kalian kunjungi sebelum atau sesudah bermain di Pantai Pangandaran. Pantai Karapyak memiliki daya tarik wisata berupa hamparan pasir putih nan elok yang dipadu dengan
+            bebatuan karang di sepanjang garis pantainya.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- contact us -->
+
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15815.993858295391!2d108.64124521919175!3d-7.683311496225237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e659845aba8e14d%3A0xe3536582dc837d98!2sPangandaran%2C%20Pananjung%2C%20Pangandaran%2C%20Ciamis%20Regency%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1669253803998!5m2!1sen!2sid"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <!------JavaScript for Toggle Menu------->
+    <script>
+      var navlink = document.getElementById('navlink');
+
+      function showMenu() {
+        navlink.style.right = '0';
+      }
+      function hideMenu() {
+        navlink.style.right = '-200px';
+      }
+    </script>
+  </body>
+</html>
